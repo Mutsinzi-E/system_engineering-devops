@@ -1,3 +1,2 @@
 #!/bin/bash
-# Append the last line of iacta to the end of iacta
 tail -n 1 iacta >> iacta
