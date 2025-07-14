@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script appends /action to the PATH variable
+
+export PATH="$PATH:/action"
