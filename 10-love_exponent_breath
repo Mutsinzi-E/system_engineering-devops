@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Prints BREATH raised to the power LOVE
+
+echo $(( BREATH ** LOVE ))
