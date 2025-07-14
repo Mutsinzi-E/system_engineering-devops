@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Add 128 to the value of the TRUEKNOWLEDGE environment variable and print the result
+
+echo $(( TRUEKNOWLEDGE + 128 ))
