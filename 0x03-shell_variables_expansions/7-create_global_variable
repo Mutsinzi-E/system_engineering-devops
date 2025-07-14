@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script creates a global (exported) variable BEST with value School
+
+export BEST="School"
