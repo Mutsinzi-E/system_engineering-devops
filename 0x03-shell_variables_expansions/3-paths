@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# This script counts the number of directories in the PATH
-
-echo "$PATH" | tr ':' '\n' | wc -l
+#!/bin/bash
+export PATH=$(echo "$PATH" | tr -s :)
