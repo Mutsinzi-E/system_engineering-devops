@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-# Divide the value of POWER by DIVIDE and print the result
-
-echo $(( POWER / DIVIDE ))
+echo $((POWER / DIVIDE))
