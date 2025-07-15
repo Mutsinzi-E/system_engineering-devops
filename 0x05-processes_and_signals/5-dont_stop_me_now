@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
-# Script to kill the 4-toinfinityand_beyond process safely
+# This script kills the 4-to_infinity_and_beyond process
 
-pid=$(pgrep -f 4-toinfinityand_beyond)
-if [ -n "$pid" ]; then
-    kill "$pid"
-else
-    echo "No 4-toinfinityand_beyond process found."
-fi
+# shellcheck disable=SC2009
+kill "$(ps aux | grep 4-to_infinity_and_beyond | grep -v grep | awk '{print $2}')" 2>/dev/null
