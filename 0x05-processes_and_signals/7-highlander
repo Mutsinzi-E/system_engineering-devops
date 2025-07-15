@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays a message forever
+# This script prints "To infinity and beyond" endlessly
 
 while true
 do
