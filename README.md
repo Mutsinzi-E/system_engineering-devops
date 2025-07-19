@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Betty"
+echo "My Name Is Betty"
